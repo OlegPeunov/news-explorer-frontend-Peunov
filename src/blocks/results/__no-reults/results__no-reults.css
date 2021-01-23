@@ -1,0 +1,6 @@
+.results__no-reults{
+  height: 374px;
+  display: flex;
+  flex-direction: column;
+  display: none;
+};

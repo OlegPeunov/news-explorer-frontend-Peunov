@@ -1,0 +1,46 @@
+@import url(./__image/news-card__image.css);
+@import url(./__bookmark-icon/news-card__bookmark-icon.css);
+@import url(./__description/news-card__description.css);
+@import url(./__text-container/news-card__text-container.css);
+@import url(./__source/news-card__source.css);
+@import url(./__date/news-card__date.css);
+@import url(./__title/news-card__title.css);
+@import url(./__text/news-card__text.css);
+@import url(./__delete-icon/news-card__delete-icon.css);
+@import url(./__category/news-card__category.css);
+@import url(.//__image/_type/news-card__image_type_image_01.css);
+@import url(.//__image/_type/news-card__image_type_image_06.css);
+@import url(.//__image/_type/news-card__image_type_image_05.css);
+@import url(.//__image/_type/news-card__image_type_image_08.css);
+@import url(.//__image/_type/news-card__image_type_image_04.css);
+@import url(.//__image/_type/news-card__image_type_image_04.css);
+@import url(.//__image/_type/news-card__image_type_image_07.css);
+
+
+
+
+
+
+
+.news-card{
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15px;
+  min-height: 576px;
+
+}
+
+
+@media (max-width: 1000px){
+	.news-card{
+    min-height: 0;
+		max-height: 420px;
+	}
+}
+
+@media (max-width: 487px){
+	.news-card{
+    min-height: 0;
+		max-height: 446px;
+	}
+}

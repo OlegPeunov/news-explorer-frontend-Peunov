@@ -1,0 +1,23 @@
+@import url(./_type/news-list_type_height.css);
+
+.news-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  grid-gap: 16px 16px;
+  justify-content: center;
+  background-color: #F5F6F7;
+}
+
+@media (max-width: 1000px){
+	.news-list{
+    grid-template-columns: repeat(auto-fill, 224px);
+    grid-gap: 8px 8px;
+	}
+}
+
+@media (max-width: 487px){
+	.news-list{
+    grid-template-columns: repeat(auto-fill, 288px);
+    grid-gap: 9px 9px;
+	}
+}

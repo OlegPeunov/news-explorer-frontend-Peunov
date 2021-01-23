@@ -1,0 +1,17 @@
+@import url(./__navigation/footer__navigation.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__column/footer__column.css);
+@import url(./__lnks-section/footer__lnks-section.css);
+@import url(./__link/footer__link.css);
+@import url(./__link-icons/footer__link-icons.css);
+@import url(./__column/_extraspace/footer__column_extraspace.css);
+@import url(./__link/_type/footer__link_type_margin.css);
+@import url(./__column/_mobile-left/footer__column_mobile-left.css);
+
+.footer{
+  min-height: 80px;
+  color: black;
+  display: flex;
+  
+}
+

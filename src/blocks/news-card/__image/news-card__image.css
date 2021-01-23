@@ -1,0 +1,25 @@
+.news-card__image{
+  height: 272px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: relative;
+
+}
+
+
+@media (max-width: 1000px){
+	.news-card__image{
+    height: 150px;
+
+	}
+}
+
+
+@media (max-width: 487px){
+	.news-card__image{
+    height: 180px;
+
+	}
+}

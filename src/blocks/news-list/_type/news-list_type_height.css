@@ -1,0 +1,9 @@
+.news-list_type_height{
+  padding: 60px 0;
+}
+
+@media (max-width: 487px){
+	.news-list_type_height{
+    padding: 24px 0;
+	}
+}

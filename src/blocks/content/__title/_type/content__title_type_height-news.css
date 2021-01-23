@@ -1,0 +1,19 @@
+.content__title_type_height-news{
+  margin-bottom: 62px;
+}
+
+@media (max-width: 1000px){
+	.content__title_type_height-news{
+    margin-bottom: 32px;
+    font-size: 30px;
+    line-height: 34px;
+	}
+}
+
+
+@media (max-width: 487px){
+	.content__title_type_height-news{
+    margin-bottom: 24px;
+	}
+}
+

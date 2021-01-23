@@ -1,0 +1,14 @@
+.news-card__description{
+  margin: 20px 24px 24px;
+  height: 261px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px){
+	.news-card__description{
+    margin: 16px;
+    height: 239px;
+	}
+}

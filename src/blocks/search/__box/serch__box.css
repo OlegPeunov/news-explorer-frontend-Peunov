@@ -1,0 +1,15 @@
+.serch__box{
+  outline: none; 
+  font-family: 'roboto';
+  color: #1A1B22;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius:50px;
+  width: 100%;
+  border: none;
+  height: 40px;
+  margin: auto 0 auto 24px;
+}
+

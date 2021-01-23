@@ -1,0 +1,6 @@
+@media (max-width: 450px){
+	.footer__column_mobile-left{
+    flex-direction: column;
+    
+	}
+}

@@ -5,8 +5,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const webpack = require('webpack');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-
 const isDev = process.env.NODE_ENV === 'development';
+
 
 module.exports = {
   entry: { main: './src/index.js' },
@@ -40,14 +40,6 @@ module.exports = {
       loader: 'file-loader?name=./vendor/[name].[ext]',
     },
     {
-      test: /\.(png|jpe?g|gif)$/i,
-      use: [
-        {
-          loader: 'file-loader',
-        },
-      ],
-    },
-    {
       test: /\.(png|jpg|gif|ico|svg)$/,
       use: [
         'file-loader?name=../images/[name].[ext]',
@@ -64,7 +56,6 @@ module.exports = {
     }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,
-      // eslint-disable-next-line global-require
       cssProcessor: require('cssnano'),
       cssProcessorPluginOptions: {
         preset: ['default'],
@@ -75,6 +66,11 @@ module.exports = {
       inject: false,
       template: './src/index.html',
       filename: 'index.html',
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/saved.html',
+      filename: 'saved.html',
     }),
     new CleanWebpackPlugin(),
     new WebpackMd5Hash(),

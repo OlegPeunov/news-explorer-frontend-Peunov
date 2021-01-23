@@ -1,0 +1,10 @@
+.popup__content_type_new-user{
+  min-height: 182px;
+  width: 430px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 34px 36px;
+  
+};

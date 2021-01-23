@@ -1,0 +1,25 @@
+.saved-news__title{
+  margin: 40px 0 28px 105px;
+  font-family: 'roboto'; 
+  color: rgba(26, 27, 34, 0.5);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media (max-width: 1000px){
+	.saved-news__title{
+    margin: 24px 0 16px 40px;
+    font-size: 14px;
+	}
+}
+
+@media (max-width: 487px){
+	.saved-news__title{
+    margin: 8px 16px 16px;
+    font-size: 12px;
+	}
+}
+
+

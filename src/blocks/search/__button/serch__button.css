@@ -1,0 +1,29 @@
+.serch__button{
+  border-radius: 50px;
+  width: 238px;
+  outline: none; 
+  font-family: 'roboto';
+  color: white;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
+  background-color: #2F71E5;
+  cursor: pointer;
+  
+}
+
+.serch__button:active{
+  background-color:#2A65CC;
+}
+
+@media (max-width: 500px){
+	.serch__button{
+    position: absolute;
+    left: 0;
+    top: 70px;
+    height: 56px;
+    width: 100%;
+	}
+}
