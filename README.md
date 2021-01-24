@@ -10,4 +10,4 @@
 
 
 ***
-Проект создан с помощью следующих технологий: JS, Git, Node, VS Code, WebPack
+Проект создан с помощью следующих технологий: html, css, JS, Git, Node, VS Code, WebPack
