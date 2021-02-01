@@ -5,7 +5,7 @@
   border-bottom: 1px solid rgba(0, 0, 0, .2);
   color: black;
   opacity: 0.8;
-  font-family: 'inter'; 
+  font-family: 'inter';
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -17,7 +17,7 @@
 
 .popup__input:focus{
   border-bottom: 1px solid rgba(0, 0, 0);
-};
+}
 
 .popup__input:last-of-type {
   margin-bottom: 0;
