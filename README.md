@@ -8,6 +8,9 @@
 
 Для запуска проекта нужно скачать проект через: git clone https://github.com/OlegPeunov/news-explorer-frontend-Peunov.git
 
+###[Посмотреть проект>>>](https://olegpeunov.github.io/news-explorer-frontend-Peunov/)
+
+
 
 ***
 Проект создан с помощью следующих технологий: JS, Git, Node, VS Code, WebPack
