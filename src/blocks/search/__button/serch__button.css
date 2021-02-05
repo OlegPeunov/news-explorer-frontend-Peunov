@@ -1,7 +1,7 @@
 .serch__button{
   border-radius: 50px;
   width: 238px;
-  outline: none; 
+  outline: none;
   font-family: 'roboto';
   color: white;
   font-weight: 500;
@@ -11,7 +11,11 @@
   border: none;
   background-color: #2F71E5;
   cursor: pointer;
-  
+
+}
+
+.serch__button:hover{
+  background-color:#347EFF;
 }
 
 .serch__button:active{
