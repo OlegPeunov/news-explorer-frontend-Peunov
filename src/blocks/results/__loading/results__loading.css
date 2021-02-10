@@ -1,0 +1,6 @@
+.results__loading{
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}

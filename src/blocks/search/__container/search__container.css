@@ -1,0 +1,17 @@
+.search__container{
+  margin: 80px auto 0;
+}
+
+@media (max-width: 1000px){
+	.search__container{
+		margin: 38px auto 0;
+	}
+}
+
+@media (max-width: 500px){
+	.search__container{
+    margin: 30px 16px;
+    height: 100%;
+    
+	}
+}

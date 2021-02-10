@@ -1,0 +1,10 @@
+.author__column-text{
+  height: 100%;
+  margin-left: 56px;
+}
+
+@media (max-width: 1000px){
+	.author__column-text{
+    margin-left: 32px;
+	}
+}

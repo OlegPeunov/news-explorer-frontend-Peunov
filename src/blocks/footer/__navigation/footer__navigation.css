@@ -1,0 +1,11 @@
+.footer__navigation{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 750px){
+	.footer__navigation{
+    flex-direction: column-reverse;
+	}
+}

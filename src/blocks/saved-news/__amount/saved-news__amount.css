@@ -1,0 +1,25 @@
+.saved-news__amount{
+  margin: 0 0 0 105px;
+  font-family: 'roboto-slab'; 
+  color: #1A1B22;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+
+@media (max-width: 1000px){
+	.saved-news__amount{
+    margin: 0 0 0 40px;
+    font-size: 30px;
+    line-height: 34px;
+	}
+}
+
+@media (max-width: 487px){
+	.saved-news__amount{
+    margin: 0 0 0 16px;
+    
+	}
+}

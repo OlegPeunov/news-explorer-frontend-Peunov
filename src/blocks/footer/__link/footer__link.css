@@ -1,0 +1,18 @@
+.footer__link{
+  text-decoration: none;
+  color: black;
+  font-family: 'roboto'; 
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin: auto 24px auto 0;
+}
+
+
+@media (max-width: 450px){
+	.footer__link{
+    margin: 0 0 30px 0;
+    
+	}
+}

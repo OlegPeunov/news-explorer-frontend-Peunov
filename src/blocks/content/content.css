@@ -1,0 +1,8 @@
+@import url(./__title/content__title.css);
+@import url(./__title/_type/content__title_type_height-author.css);
+@import url(./__title/_type/content__title_type_height-news.css);
+
+.content{
+  max-width: 1440px;
+  margin: auto;
+}

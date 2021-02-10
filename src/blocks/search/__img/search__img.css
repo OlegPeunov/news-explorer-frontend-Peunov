@@ -1,0 +1,24 @@
+.search__img{
+  width:100%;
+  height: 576px;
+  background-position: center;
+  position: absolute;
+  top: -81px;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+@media (max-width: 1000px){
+	.search__img{
+		height: 450px;
+	}
+}
+
+@media (max-width: 500px){
+	.search__img{
+    height: 561px;
+    object-fit: none;
+	}
+}

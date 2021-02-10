@@ -1,0 +1,11 @@
+.header__link_type_saved-articles{
+  color: #B6BCBF;
+  /* display: none; */
+
+}
+
+@media (max-width: 500px){
+	.header__link_type_saved-articles{
+		color: white;
+	}
+}

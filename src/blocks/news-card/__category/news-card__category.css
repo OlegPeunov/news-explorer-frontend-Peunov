@@ -1,0 +1,22 @@
+.news-card__category{
+  background-color: white;
+  border-radius: 7px;
+  border: none;
+  padding-right: 15px;
+  height: 40px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding-left: 15px;
+  color: black;
+  top: 24px;
+  left: 24px;
+  font-family: 'roboto';
+  color: black;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
