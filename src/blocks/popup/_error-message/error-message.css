@@ -1,7 +1,7 @@
 .error-message{
-  position: fixed;
+  position: relative;
   top: -30px;
-  left: - 30px;
+  left: 0;
   font-family: 'inter';
   font-style: normal;
   font-weight: 400;

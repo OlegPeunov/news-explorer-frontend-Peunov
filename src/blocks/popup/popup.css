@@ -11,9 +11,11 @@
 @import url(./__or-text/_link/popup__or-text_link.css);
 @import url(./_type/popup_type_signin.css);
 @import url(./_type/popup_type_signup.css);
+@import url(./_error-message/error-message.css);
 @import url(./_error-message/_type/error-message_type_server.css);
 @import url(./_type/popup_type_new-user.css);
 @import url(./__content/_type/popup__content_type_new-user.css);
+@import url(./_is-opened/popup_is-opened.css);
 
 .popup {
   background-color: rgba(0, 0, 0, .5);

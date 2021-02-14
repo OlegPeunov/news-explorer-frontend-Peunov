@@ -112,16 +112,16 @@
         <div class="popup__content">
           <img src="<%=require('./images/close.svg').default%>" alt="" class="popup__close">
           <h3 class="popup__title">Вход</h3>
-          <form class="popup__form" novalidate name="new">
+          <form class="popup__form" novalidate id="signin">
             <p class="popup__input-title">Email</p>
-            <input type="email" id="popup-email-signin" name="email" class="popup__input" required placeholder="Введите почту" value="">
+            <input type="email" id="email-signin" name="email" class="popup__input" required placeholder="Введите почту" value="">
             <span id="error-email-signin" class="error-message"></span>
             <p class="popup__input-title">Пароль</p>
             <input type="password" id="password-signin" name="password" class="popup__input" required minlength="4" placeholder="Введите пароль" value="">
             <span id="error-password-signin" class="error-message"></span>
-            <button id="popup-button-signin" class="popup__button" disabled >Войти</button> <!-- смена фона через класс "button-active" -->
+            <button id="popup-button-signin" class="popup__button" disabled >Войти</button>
             <p class="popup__or-text">или
-              <a class="popup__or-text popup__or-text_link" href="#">Зарегистрироваться</a></p>
+              <a class="popup__or-text popup__or-text_link" id="registration" href="#">Зарегистрироваться</a></p>
           </form>
         </div>
       </section>
@@ -129,9 +129,9 @@
         <div class="popup__content">
           <img src="<%=require('./images/close.svg').default%>" alt="" class="popup__close">
           <h3 class="popup__title">Регистрация</h3>
-          <form class="popup__form" novalidate name="new">
+          <form class="popup__form" novalidate id="signup">
             <p class="popup__input-title">Email</p>
-            <input type="email" id="popup-email-signup" name="email" class="popup__input" required placeholder="Введите почту" value="">
+            <input type="email" id="email-signup" name="email" class="popup__input" required placeholder="Введите почту" value="">
             <span id="error-email-signup" class="error-message"></span>
             <p class="popup__input-title">Пароль</p>
             <input type="password" id="password-signup" name="password" class="popup__input" required minlength="4" placeholder="Введите пароль" value="">
@@ -142,9 +142,9 @@
             <span id="error-name" class="error-message"></span>
             <span id="error-server" class="error-message error-message_type_server"></span>
 
-            <button id="popup-button-signup" class="popup__button" disabled >Войти</button> <!-- смена фона через класс "button-active" -->
+            <button id="popup-button-signup" class="popup__button" disabled >Войти</button>
             <p class="popup__or-text">или
-              <a class="popup__or-text popup__or-text_link" href="#">Войти</a></p>
+              <a class="popup__or-text popup__or-text_link" id="enter" href="#">Войти</a></p>
           </form>
         </div>
       </section>
