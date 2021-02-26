@@ -1,3 +1,8 @@
+
+.popup_type_new-user.popup_is-opened {
+  display: flex;
+}
+
 .popup.popup_is-opened {
   display: flex;
 }

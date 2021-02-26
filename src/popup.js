@@ -2,7 +2,7 @@
 export default class Popup{
   constructor(element){
 
-    this.element = element.closest('.popup');
+    this.element = element.closest('section');
     const closeButton = this.element.querySelector('.popup__close');
 
     closeButton.addEventListener('click', this.close)

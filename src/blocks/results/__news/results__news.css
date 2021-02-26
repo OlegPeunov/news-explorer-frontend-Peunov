@@ -2,8 +2,8 @@
   padding: 80px 102px;
   display: flex;
   flex-direction: column;
-	/* display: none; */
-	
+	display: none;
+
 }
 
 @media (max-width: 1000px){

@@ -6,6 +6,7 @@
 @import url(../header.css/__link/_type/header__link_type_border.css);
 @import url(../header.css/__link/_type/header__link_type_saved-articles.css);
 @import url(../header.css/__link/_type/header__link_type_user.css);
+@import url(../header.css/__link/_is-opened/header__link_is-opened.css);
 @import url(../header.css/__user-icon/header__user-icon.css);
 @import url(../header.css/__mobile-menu/header__mobile-menu.css);
 @import url(../header.css/_type/header_type_menu-open.css);

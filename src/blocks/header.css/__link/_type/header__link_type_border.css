@@ -7,8 +7,8 @@
   margin-top: auto;
   margin-bottom: auto;
   text-align: center;
-  /* display: none; */
-  
+  display: none;
+
 }
 
 
@@ -24,6 +24,6 @@
     height: 56px;
     width: 288px;
     margin: 0 auto;
-		
+
 	}
 }

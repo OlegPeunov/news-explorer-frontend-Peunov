@@ -1,0 +1,6 @@
+.results__search-error{
+  height: 222px;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
