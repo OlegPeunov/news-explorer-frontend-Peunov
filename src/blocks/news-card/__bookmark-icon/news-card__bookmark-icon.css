@@ -22,29 +22,7 @@
   background-color: white;
 }
 
-.news-card__bookmark-icon:hover::after {
-  content: attr(data-title);
-  position: absolute;
-  left: -187px; top: 0;
-  font-family: 'roboto';
-  z-index: 1;
-  border-radius: 10px;
-  width: 182px;
-  height: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: white;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 12px;
-
- }
-
- @media (max-width: 1000px){
-	.news-card__bookmark-icon{
-    top: 8px;
-    right: 8px;
-	}
+.news-card__bookmark-icon_added:hover{
+  background: url(../../../images/Rectangle-blue.jpg) no-repeat center;
+  background-color: white;
 }

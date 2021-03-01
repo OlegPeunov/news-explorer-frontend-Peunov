@@ -1,0 +1,7 @@
+@media (max-width: 500px){
+  .header__menu_is-opened{
+    display: flex;
+  }
+}
+
+

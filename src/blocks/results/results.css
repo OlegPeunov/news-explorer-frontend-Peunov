@@ -3,9 +3,13 @@
 @import url(./__text/results__text.css);
 @import url(./__no-reults/results__no-reults.css);
 @import url(./__not-found-img/results__not-found-img.css);
+@import url(./__search-error/results__search-error.css);
 @import url(./__title/results__title.css);
 @import url(./__news/results__news.css);
 @import url(./__button-more-news/results__button-more-news.css);
+@import url(./__button-more-news/_hidden/results__button-more-news_hidden.css);
+@import url(./_is-opened/results_is-opened.css);
+
 
 .results{
   width: 100%;

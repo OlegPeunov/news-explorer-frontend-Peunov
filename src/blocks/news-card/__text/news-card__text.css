@@ -1,6 +1,6 @@
 .news-card__text{
   margin: 16px 0 0;
-  font-family: 'roboto'; 
+  font-family: 'roboto';
   color: black;
   font-weight: 400;
   font-style: normal;
@@ -12,14 +12,14 @@
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  
+
 
 }
 
 @media (max-width: 1000px){
 	.news-card__text{
     max-height: 88px;
-    
+
     margin: 8px 0 0;
 	}
 }

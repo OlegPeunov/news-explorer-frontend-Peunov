@@ -19,93 +19,18 @@
         <ul class="header__menu">
           <li class="navigation-element"><a href="./index.html" class="header__link header__link_type_underline_saved">Главная</a></li>
           <li class="navigation-element"><a href="" class="header__link header__link_type_saved-articles_saved">Сохранённые статьи</a></li>
-          <li class="navigation-element"><a href="" class="header__link header__link_type_user_saved">Грета
-            <img class="header__user-icon" src="<%=require('./images/Union-black.svg').default%>" alt="icon"></a></li>
+          <li class="navigation-element"><a href="./index.html" class="header__link header__link_type_user_saved" id="userButton"> <p id="changename"></p> <img class="header__user-icon" src="<%=require('./images/Union-black.svg').default%>" alt="icon"> </a></li>
         </ul>
       </nav>
     </header>
     <main class="content">
       <section class="saved-news">
         <p class="saved-news__title">Сохранённые статьи</p>
-        <h4 class="saved-news__amount">Грета, у вас 5</h4>
+        <h4 class="saved-news__amount" id ="news-amount"></h4>
         <h4 class="saved-news__amount">сохранённых статей</h4>
-        <p class="saved-news__key-words">По ключевым словам: <b>Природа, Тайга и 2-м другим</b></p>
-        <div class="news-list news-list_type_height">
-          <div class="news-card">
-            <div class="news-card__image news-card__image_type_image_06">
-              <p class="news-card__category">Природа</p>
-              <button class="news-card__delete-icon" data-title="Убрать из сохранённых"></button>
-            </div>
-            <div class="news-card__description">
-              <div class="news-card__text-container">
-                <p class="news-card__date">2 августа, 2019</p>
-                <h4 class="news-card__title">Национальное достояние – парки</h4>
-                <p class="news-card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных
-                  парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-              </div>
-              <p class="news-card__source">ДЗЕН</p>
-            </div>
-          </div>
-          <div class="news-card">
-            <div class="news-card__image news-card__image_type_image_01">
-              <p class="news-card__category">Природа</p>
-              <button class="news-card__delete-icon" data-title="Убрать из сохранённых"></button>
-            </div>
-            <div class="news-card__description">
-              <div class="news-card__text-container">
-                <p class="news-card__date">2 августа, 2019</p>
-                <h4 class="news-card__title">Лесные огоньки: история одной фотографии</h4>
-                <p class="news-card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного
-                  из местных чудес природы.</p>
-              </div>
-              <p class="news-card__source">АФИША</p>
-            </div>
-          </div>
-          <div class="news-card">
-            <div class="news-card__image news-card__image_type_image_05">
-              <p class="news-card__category">Тайга</p>
-              <button class="news-card__delete-icon" data-title="Убрать из сохранённых"></button>
-            </div>
-            <div class="news-card__description">
-              <div class="news-card__text-container">
-                <p class="news-card__date">2 августа, 2019</p>
-                <h4 class="news-card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
-                <p class="news-card__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения.
-                  В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-              </div>
-              <p class="news-card__source">МЕДИАЗОНА</p>
-            </div>
-          </div>
-          <div class="news-card">
-            <div class="news-card__image news-card__image_type_image_06">
-              <p class="news-card__category">Парки</p>
-              <button class="news-card__delete-icon" data-title="Убрать из сохранённых"></button>
-            </div>
-            <div class="news-card__description">
-              <div class="news-card__text-container">
-                <p class="news-card__date">2 августа, 2019</p>
-                <h4 class="news-card__title">Национальное достояние – парки</h4>
-                <p class="news-card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных
-                  парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-              </div>
-              <p class="news-card__source">ДЗЕН</p>
-            </div>
-          </div>
-          <div class="news-card">
-            <div class="news-card__image news-card__image_type_image_01">
-              <p class="news-card__category">Фотография</p>
-              <button class="news-card__delete-icon" data-title="Убрать из сохранённых"></button>
-            </div>
-            <div class="news-card__description">
-              <div class="news-card__text-container">
-                <p class="news-card__date">2 августа, 2019</p>
-                <h4 class="news-card__title">Лесные огоньки: история одной фотографии</h4>
-                <p class="news-card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного
-                  из местных чудес природы.</p>
-              </div>
-              <p class="news-card__source">АФИША</p>
-            </div>
-          </div>
+        <p class="saved-news__key-words">По ключевым словам: <b id=keywords></b></p>
+        <div class="news-list news-list_type_height" id="news-list-saved">
+
         </div>
       </section>
     </main>
@@ -118,7 +43,7 @@
             <li class="navigation-element"><a class="footer__link" href="https://praktikum.yandex.ru/" target="blank">Яндекс.Практикум</a></li>
           </ul>
           <ul class="footer__column footer__column_extraspace">
-            <li class="navigation-element"><a class="footer__link footer__link_type_margin" href="https://github.com/" target="blank"><img class="footer__link-icons" src="<%=require('./images/Vector-Git.png').default%>" alt="logo GitHub"></a></li>
+            <li class="navigation-element"><a class="footer__link footer__link_type_margin" href="https://github.com/OlegPeunov/news-explorer-frontend-Peunov" target="blank"><img class="footer__link-icons" src="<%=require('./images/Vector-Git.png').default%>" alt="logo GitHub"></a></li>
             <li class="navigation-element"><a class="footer__link footer__link_type_margin" href="https://www.facebook.com/" target="blank"><img class="footer__link-icons" src="<%=require('./images/Vector-FB.png').default%>" alt="logo Facebook"></a></li>
           </ul>
         </div>

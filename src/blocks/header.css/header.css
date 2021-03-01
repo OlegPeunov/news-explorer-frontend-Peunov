@@ -1,15 +1,20 @@
+
 @import url(../header.css/__logo/header__logo.css);
 @import url(../header.css/__menu/header__menu.css);
+@import url(../header.css/__menu/_is-opened/header__menu_is-opened.css);
 @import url(../header.css/__link/header__link.css);
 @import url(../header.css/__navigation/header__navigation.css);
 @import url(../header.css/__link/_type/header__link_type_underline.css);
 @import url(../header.css/__link/_type/header__link_type_border.css);
 @import url(../header.css/__link/_type/header__link_type_saved-articles.css);
 @import url(../header.css/__link/_type/header__link_type_user.css);
+@import url(../header.css/__link/_is-opened/header__link_is-opened.css);
 @import url(../header.css/__user-icon/header__user-icon.css);
 @import url(../header.css/__mobile-menu/header__mobile-menu.css);
+@import url(../header.css/__menu/_type/header__menu_type_white.css);
 @import url(../header.css/_type/header_type_menu-open.css);
 @import url(../header.css/__navigation/_type/header__navigation_type_menu-open.css);
+@import url(../header.css/__navigation/_type/header__navigation_type_menu-open-white.css);
 @import url(../header.css/__mobile-menu/_type/header__mobile-menu_type_saved.css);
 
 

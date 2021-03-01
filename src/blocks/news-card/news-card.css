@@ -1,5 +1,6 @@
 @import url(./__image/news-card__image.css);
 @import url(./__bookmark-icon/news-card__bookmark-icon.css);
+@import url(./__bookmark-icon/_type/news-card__bookmark-icon_type_message.css);
 @import url(./__description/news-card__description.css);
 @import url(./__text-container/news-card__text-container.css);
 @import url(./__source/news-card__source.css);
@@ -27,7 +28,7 @@
   background-color: #fff;
   border-radius: 15px;
   min-height: 576px;
-
+  text-decoration: none;
 }
 
 
