@@ -7,6 +7,7 @@ import UserInfo from './userInfo';
 import Results from './results';
 import Card from './card';
 import NewsList from './newsList';
+import MobileMenu from './mobileMenu';
 
 (function(){
 
@@ -18,6 +19,7 @@ const newUserForm = container.querySelector('#new');
 const searchForm = container.querySelector('#searchForm');
 const registrationButton = container.querySelector('#registration');
 const enterButton = container.querySelector('#enter');
+const changeName = container.querySelector('#changename');
 const enterNewUserButton = container.querySelector('#newUserEnster');
 const userButton = container.querySelector('#userButton');
 const savedNewsButton = container.querySelector('#savedButton');
@@ -27,6 +29,15 @@ const eroorServer = signUpForm.querySelector('#error-server')
 const noResults = container.querySelector('.results__no-reults')
 const preload = container.querySelector('.results__loading')
 const searhErr = container.querySelector('.results__search-error')
+const searhBox = container.querySelector('.serch__box')
+const searhButton = container.querySelector('.serch__button')
+const menuButton = container.querySelector('.header__mobile-menu')
+const header = container.querySelector('.header')
+const headerNav = container.querySelector('.header__navigation')
+const headerMenu = container.querySelector('.header__menu')
+
+
+
 const resultsNews = container.querySelector('.results__news')
 const newsList = container.querySelector('.news-list')
 const moreNewsButton = container.querySelector('.results__button-more-news')
@@ -37,9 +48,10 @@ const newSignUP = new Popup(signUpForm)
 const newUser = new Popup(newUserForm)
 const ignInValidator = new FormValidator(signInForm);
 const signUValidator = new FormValidator(signUpForm);
-const userInfo = new UserInfo(userButton, savedNewsButton, signinButton);
+const userInfo = new UserInfo(userButton, changeName, savedNewsButton, signinButton);
 const resultsSection = new Results(noResults, preload, searhErr, resultsNews);
 const newNewsList = new NewsList(newsList, moreNewsButton);
+const mobileMenu = new MobileMenu(menuButton, header, headerNav, headerMenu);
 
 
 const newApi = new Api({
@@ -132,7 +144,6 @@ signUpForm.addEventListener('submit', function(){
 
 
 
-
 searchForm.addEventListener('submit', function(){
   event.preventDefault()
   resultsSection.preLoadOn()
@@ -144,14 +155,15 @@ searchForm.addEventListener('submit', function(){
     newsList.removeChild(newsList.firstChild);
   }
   const reruest = searchForm.elements.searchBox.value
+
   cnt.nmFirsrt=0
   cnt.nmSec=3
 
   newNewsApi.getNews(reruest)
     .then((res)=>{
-      console.log(res.articles)
       if(res.articles.length === 0){
         resultsSection.noResultsOpen()
+        resultsSection.preLoadOff()
       } else {
         resultsSection.preLoadOff()
         resultsSection.resultsNewsOpen()
@@ -193,6 +205,7 @@ registrationButton.addEventListener('click', function(){
 
 autoristaionButton.addEventListener('click', function(){
   newSignIn.open()
+  mobileMenu.mobleMenuClose()
 });
 
 enterNewUserButton.addEventListener('click', function(){
@@ -204,9 +217,6 @@ userButton.addEventListener('click', function(){
   localStorage.clear()
   location.reload()
 });
-
-
-
 
 
 
@@ -227,6 +237,22 @@ moreNewsButton.addEventListener('click', function(){
   showThree()
 
 });
+
+
+searhButton.addEventListener('click', function(){
+  searhBox.setCustomValidity('')
+  const reruest = searchForm.elements.searchBox.value
+  if(!reruest){
+    searhBox.setCustomValidity('Нужно ввести ключевое слово')
+  }
+});
+
+
+
+
+menuButton.addEventListener('click', function(){
+  mobileMenu.mobleMenuOpen()
+})
 
 
 ignInValidator.setEventListeners();

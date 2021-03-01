@@ -1,4 +1,4 @@
-export default class newsApi{
+export default class NewsApi{
   constructor(config){
     this.url = config.url
     this.apiKey = config.apiKey
@@ -8,7 +8,6 @@ export default class newsApi{
   }
 
   _getResponseData(res){
-    console.log(res)
     if(res.ok){
       return res.json()
     }
@@ -25,8 +24,5 @@ export default class newsApi{
     })
     .then(this._getResponseData)
   }
-
-
-
 
 }

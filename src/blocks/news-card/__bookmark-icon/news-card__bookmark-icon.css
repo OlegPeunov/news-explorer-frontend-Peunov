@@ -22,3 +22,7 @@
   background-color: white;
 }
 
+.news-card__bookmark-icon_added:hover{
+  background: url(../../../images/Rectangle-blue.jpg) no-repeat center;
+  background-color: white;
+}

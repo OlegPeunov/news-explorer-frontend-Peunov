@@ -6,7 +6,6 @@ export default class Api{
   }
 
   _getResponseData(res){
-    console.log(res)
     if(res.ok){
       return res.json()
     }

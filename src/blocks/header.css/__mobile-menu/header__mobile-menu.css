@@ -17,10 +17,10 @@
     display: block;
 
   }
-  
+
   .header__mobile-menu_open{
     background: url(../../../images/back.svg) no-repeat center;
-    
+
   }
 
 }

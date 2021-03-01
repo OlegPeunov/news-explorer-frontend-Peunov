@@ -10,14 +10,18 @@ export default class FormValidator{
       if(inputField.validity.typeMismatch){
         errorElement.textContent = 'Здесь должен быть имейл';
 
-      } else if (inputField.value.length===0){
+      } else if (inputField.value.length===0&& inputField.name == 'password'){
+        console.log(inputField.name)
         errorElement.textContent = 'Это обязательное поле';
 
 
-      } else if ( inputField.value.length===1){
-        errorElement.textContent = 'Должно быть от 2 до 30 символов'
+      } else if ( inputField.value.length<8 && inputField.name == 'password'){
+        errorElement.textContent = 'Должно быть не менее 8 символов'
 
+      }else if(inputField.value.length<2 && inputField.name == 'name'){
+        errorElement.textContent = 'Должно быть от 2 до 30 символов'
       }
+
       return false;
     };
 

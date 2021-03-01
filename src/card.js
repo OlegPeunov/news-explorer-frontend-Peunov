@@ -49,7 +49,6 @@ export default class Card{
 
   openLink=()=>{
     if(event.target.className !== "news-card__bookmark-icon news-card__bookmark-icon_added" && event.target.className !== "news-card__bookmark-icon"){
-      console.log(this.cardData.url)
       window.open(`${this.cardData.url}`, '_blank')
     }
 

@@ -1,12 +1,14 @@
 export default class UserInfo{
-  constructor(userButton, savedNewsButton, signinButton){
+  constructor(userButton, changeName, savedNewsButton, signinButton){
     this.userButton = userButton
+    this.changeName = changeName
     this.savedNewsButton = savedNewsButton
     this.signinButton = signinButton
+
   }
 
   setUserInfo(){
-    this.userButton.textContent=JSON.parse(localStorage.getItem('user')).name
+    this.changeName.textContent=JSON.parse(localStorage.getItem('user')).name
   }
 
   savedNewsButtonOpen(){

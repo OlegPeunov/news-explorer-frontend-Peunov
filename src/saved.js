@@ -3,6 +3,7 @@ import UserInfo from './userInfo';
 import Api from './api';
 import Card from './card';
 import NewsList from './newsList';
+import MobileMenu from './mobileMenu';
 
 
 (function(){
@@ -11,8 +12,16 @@ const userButton = container.querySelector('#userButton');
 const newsList = container.querySelector('#news-list-saved');
 const artclesAmount = container.querySelector('#news-amount');
 const keywords = container.querySelector('#keywords');
+const changeName = container.querySelector('#changename');
+const menuButton = container.querySelector('.header__mobile-menu')
+const header = container.querySelector('.header-saved')
+const headerNav = container.querySelector('.header__navigation')
+const headerMenu = container.querySelector('.header__menu')
 
-const userInfo = new UserInfo(userButton);
+
+
+const mobileMenu = new MobileMenu(menuButton, header, headerNav, headerMenu);
+const userInfo = new UserInfo(userButton, changeName);
 const newNewsList = new NewsList(newsList);
 const newApi = new Api({
   url: 'https://diplompeunov.students.nomoreparties.space',
@@ -91,7 +100,9 @@ const createCard = cardData => {
 }
 
 
-
+menuButton.addEventListener('click', function(){
+  mobileMenu.mobleMenuOpenWhite()
+})
 
 userButton.addEventListener('click', function(){
   localStorage.clear()
