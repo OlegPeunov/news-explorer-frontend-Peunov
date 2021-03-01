@@ -6,26 +6,20 @@ export default class MobileMenu{
     this.headerMenu = headerMenu
   }
 
-  mobleMenuOpen=()=>{
-    this.header.classList.add('header_type_menu-open')
-    this.menuButton.classList.add('header__mobile-menu_open')
-    this.headerNav.classList.add('header__navigation_type_menu-open')
-    this.headerMenu.classList.add('header__menu_is-opened')
+  mobleMenuToggle=()=>{
+    this.header.classList.toggle('header_type_menu-open')
+    this.menuButton.classList.toggle('header__mobile-menu_open')
+    this.headerNav.classList.toggle('header__navigation_type_menu-open')
+    this.headerMenu.classList.toggle('header__menu_is-opened')
   }
 
-  mobleMenuClose=()=>{
-    this.header.classList.remove('header_type_menu-open')
-    this.menuButton.classList.remove('header__mobile-menu_open')
-    this.headerNav.classList.remove('header__navigation_type_menu-open')
-    this.headerMenu.classList.remove('header__menu_is-opened')
-  }
 
-  mobleMenuOpenWhite=()=>{
-    this.header.classList.add('header_type_menu-open')
-    this.menuButton.classList.add('header__mobile-menu_open')
-    this.headerNav.classList.add('header__navigation_type_menu-open-white')
-    this.headerMenu.classList.add('header__menu_is-opened')
-    this.headerMenu.classList.add('header__menu_type_white')
+  mobleMenuOpenToggle=()=>{
+    this.header.classList.toggle('header_type_menu-open')
+    this.menuButton.classList.toggle('header__mobile-menu_open')
+    this.headerNav.classList.toggle('header__navigation_type_menu-open-white')
+    this.headerMenu.classList.toggle('header__menu_is-opened')
+    this.headerMenu.classList.toggle('header__menu_type_white')
   }
 
 

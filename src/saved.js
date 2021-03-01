@@ -101,7 +101,7 @@ const createCard = cardData => {
 
 
 menuButton.addEventListener('click', function(){
-  mobileMenu.mobleMenuOpenWhite()
+  mobileMenu.mobleMenuOpenToggle()
 })
 
 userButton.addEventListener('click', function(){

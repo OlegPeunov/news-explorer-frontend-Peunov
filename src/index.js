@@ -205,7 +205,7 @@ registrationButton.addEventListener('click', function(){
 
 autoristaionButton.addEventListener('click', function(){
   newSignIn.open()
-  mobileMenu.mobleMenuClose()
+  mobileMenu.mobleMenuToggle()
 });
 
 enterNewUserButton.addEventListener('click', function(){
@@ -251,7 +251,7 @@ searhButton.addEventListener('click', function(){
 
 
 menuButton.addEventListener('click', function(){
-  mobileMenu.mobleMenuOpen()
+  mobileMenu.mobleMenuToggle()
 })
 
 
