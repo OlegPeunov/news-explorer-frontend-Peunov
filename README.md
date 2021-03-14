@@ -1,5 +1,8 @@
 # news-explorer-frontend-Peunov
 
+
+https://media1.giphy.com/media/t2qb9S7aUMeMKwa21E/giphy.gif
+
 #Дипломная Работа
 
 ####Версия 1.0
