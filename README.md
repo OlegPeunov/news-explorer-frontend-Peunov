@@ -2,7 +2,7 @@
 
 ####Версия 1.0
 
-![Alt Text](https://media1.giphy.com/media/t2qb9S7aUMeMKwa21E/giphy.gif)
+![Alt Text](https://media2.giphy.com/media/tuLw3tM3wSySllgIGw/giphy.gif)
 
 
 Сайт для поиска свежих новосетей, с возмоэжностью хранения интерсующих карточек в своем профиле.
