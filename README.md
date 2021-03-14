@@ -1,11 +1,9 @@
 # news-explorer-frontend-Peunov
 
+####Версия 1.0
+
 ![Alt Text](https://media1.giphy.com/media/t2qb9S7aUMeMKwa21E/giphy.gif)
 
-
-#Дипломная Работа
-
-####Версия 1.0
 
 Сайт для поиска свежих новосетей, с возмоэжностью хранения интерсующих карточек в своем профиле.
 
