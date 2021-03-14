@@ -1,7 +1,7 @@
 # news-explorer-frontend-Peunov
 
+![Alt Text](https://media1.giphy.com/media/t2qb9S7aUMeMKwa21E/giphy.gif)
 
-https://media1.giphy.com/media/t2qb9S7aUMeMKwa21E/giphy.gif
 
 #Дипломная Работа
 
