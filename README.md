@@ -16,6 +16,7 @@
 ###[Посмотреть проект>>>](https://olegpeunov.github.io/news-explorer-frontend-Peunov/)
 
 
+Проект завершен, но есть планы по рефактоирнгу кода
 
 ***
 Проект создан с помощью следующих технологий: JS, Git, Node, VS Code, WebPack
