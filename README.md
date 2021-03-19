@@ -1,6 +1,6 @@
 # news-explorer-frontend-Peunov
 
-Версия 1.0
+###Версия 1.0
 
 ![Alt Text](https://media2.giphy.com/media/tuLw3tM3wSySllgIGw/giphy.gif)
 
@@ -24,10 +24,10 @@
 
 ## Интсрукции по запуску:
 * Скачать или склонировать репозиторий
-* Установить зависимости пр помощи - npm i
-* Development режим - npm run dev
-* Запустить сборку production-билда - npm run start
-* Разместить production-билд на github-pages - npm run deploy
+* Установить зависимости пр помощи - **npm i**
+* Development режим - **npm run dev**
+* Запустить сборку production-билда - **npm run start**
+* Разместить production-билд на github-pages - **npm run deploy**
 
 
 ### [Посмотреть проект>>>](https://olegpeunov.github.io/news-explorer-frontend-Peunov/)
