@@ -22,9 +22,13 @@
 * Выход профиля, редирект на основную страницу
 
 
+## Интсрукции по запуску:
+* Скачать или склонировать репозиторий
+* Установить зависимости пр помощи - npm i
+* Development режим - npm run dev
+* Запустить сборку production-билда - npm run start
+* Разместить production-билд на github-pages - npm run deploy
 
-
-Для работы с проектом нужно скачать репозитирой через, "git clone https://github.com/OlegPeunov/news-explorer-frontend-Peunov.git", и запутсить командой "npm run dev".
 
 ### [Посмотреть проект>>>](https://olegpeunov.github.io/news-explorer-frontend-Peunov/)
 
