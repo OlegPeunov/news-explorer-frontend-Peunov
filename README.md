@@ -15,7 +15,7 @@
 
 Для работы с проектом нужно скачать репозитирой через, "git clone https://github.com/OlegPeunov/news-explorer-frontend-Peunov.git", и запутсить командой "npm run dev".
 
-###[Посмотреть проект>>>](https://olegpeunov.github.io/news-explorer-frontend-Peunov/)
+### [Посмотреть проект>>>](https://olegpeunov.github.io/news-explorer-frontend-Peunov/)
 
 
 Проект завершен, но есть планы по рефактоирнгу кода
